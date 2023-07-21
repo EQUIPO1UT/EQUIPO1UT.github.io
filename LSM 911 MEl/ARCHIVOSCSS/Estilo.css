@@ -1,0 +1,43 @@
+body{
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+background-image: url('COLORFONDO.jpg'); 
+background-size: cover;
+}
+
+header{
+    display: flex;
+    height: 100px;
+    background-color: #494948;;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.logo {
+    display: flex;
+}
+
+.logo img{
+    height: 150px;
+}
+
+div{
+    text-decoration: none;
+    color: white;
+    align-items: center;
+}
+
+.video-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+  }
+  
+  .video-container video {
+    max-width: 100%;
+    max-height: 100%;
+  }
+
+  
+

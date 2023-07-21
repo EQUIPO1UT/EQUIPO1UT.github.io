@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.form-ENVIAR{
+    width: 20%;
+    background-color: #494948;;
+    padding: 20px;
+    margin: auto;
+    margin-top: 5%;
+    border-radius: 4px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.form-ENVIAR{
+    align-items: center;
+    color: white;
+    justify-content: center;
+}
+
+.button{
+    width: 100%;
+    background: #416dce;
+    border: none;
+    padding: 12px;
+    color: white;
+    margin: 16px 0;
+    font-size: 16px;
+    
+}
+
+.button:active{
+    transform: scale(0.96);
+}

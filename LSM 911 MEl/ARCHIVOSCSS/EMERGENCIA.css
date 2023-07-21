@@ -1,0 +1,20 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.form-EMERGENCIA{
+    width: 50%;
+    background-color: #494948;;
+    padding: 30px;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 4px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    box-shadow: 7px  13px  37px #000;
+}
+
+.form-EMERGENCIA{
+    color: white;
+}

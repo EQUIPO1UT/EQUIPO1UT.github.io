@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.form-Form{
+    width: 50%;
+    background-color: #494948;
+    padding: 30px;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 4px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    box-shadow: 7px  13px  37px #000;
+}
+
+.form-Form image{
+    size: 20px;
+}
+
+
+
+
+.form-Form H4{
+    font-size: 22px;
+    margin-bottom: 20px;
+    color: white;
+}
+
+.form-Form h2{
+    font-size: 12px;
+    margin-bottom: 20px;
+    color: white;
+}
+
+.controls{
+    width: 100%;
+    border-radius: 4px;
+    margin-bottom: 16px;
+}
+
+.form-Form form{
+    color: white;
+}
+
+
