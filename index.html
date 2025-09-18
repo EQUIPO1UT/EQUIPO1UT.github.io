@@ -1,0 +1,162 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Portafolio — Oscar Omar Saucedo Beltrán</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: linear-gradient(135deg, #1c1c1c, #2e2e2e);
+      color: #fff;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      min-height: 100vh;
+      text-align: center;
+    }
+
+    header {
+      margin-top: 2rem;
+    }
+
+    header h1 {
+      margin: 0.5rem 0 0;
+      font-size: 2rem;
+      font-weight: bold;
+      color: #ffffff;
+    }
+
+    header p {
+      margin: 0;
+      font-size: 1.1rem;
+      color: #bbbbbb;
+    }
+
+    .logo {
+      width: 120px;
+      height: 120px;
+      border-radius: 50%;
+      background: #ffffff;
+      color: #1c1c1c;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 3rem;
+      font-weight: bold;
+      margin: 2rem auto;
+      animation: pulse 3s infinite ease-in-out;
+      box-shadow: 0 0 20px rgba(255,255,255,0.2);
+    }
+
+    @keyframes pulse {
+      0%, 100% { transform: scale(1); }
+      50% { transform: scale(1.1); }
+    }
+
+    main {
+      max-width: 700px;
+      padding: 1rem;
+      background: rgba(255,255,255,0.05);
+      border-radius: 10px;
+      margin-bottom: 2rem;
+      animation: fadeIn 1.5s ease-in;
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(20px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    section {
+      margin: 2rem 0;
+    }
+
+    h2 {
+      color: #ffffff;
+      margin-bottom: 0.5rem;
+    }
+
+    p {
+      font-size: 1rem;
+      line-height: 1.6;
+      color: #e0e0e0;
+    }
+
+    ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+      color: #e0e0e0;
+    }
+
+    ul li {
+      margin: 0.5rem 0;
+    }
+
+    footer {
+      margin-top: auto;
+      padding: 1rem;
+      font-size: 0.9rem;
+      color: #aaaaaa;
+    }
+
+    a {
+      color: #ffffff;
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+  <div class="logo">O</div>
+
+  <header>
+    <h1>Oscar Omar Saucedo Beltrán</h1>
+    <p>Desarrollador de software y entusiasta de los videojuegos</p>
+  </header>
+
+  <main>
+    <section>
+      <h2>Sobre mí</h2>
+      <p>
+        Soy un desarrollador con bases sólidas en <strong>HTML</strong>, <strong>CSS</strong>, 
+        <strong>JavaScript</strong> y <strong>C#</strong>.  
+        Me especializo en el desarrollo de <strong>juegos web</strong>, <strong>diseño de páginas web</strong> 
+        y <strong>aplicaciones móviles sencillas</strong>.  
+        Una de mis mayores aspiraciones es <strong>formar parte de la comunidad de desarrolladores de juegos indie</strong>, 
+        aportando ideas creativas y experiencias únicas a este apasionante mundo.  
+        Mi objetivo es seguir perfeccionando mis habilidades y consolidarme como un creador de soluciones digitales innovadoras.
+      </p>
+    </section>
+
+    <section>
+      <h2>Habilidades</h2>
+      <ul>
+        <li>HTML • CSS • JavaScript</li>
+        <li>C# • Desarrollo de juegos web</li>
+        <li>Diseño responsive de páginas web</li>
+        <li>Aplicaciones móviles sencillas</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Contacto</h2>
+      <p>Email: <a href="mailto:oscar.saucedo@example.com">oscar.saucedo@example.com</a></p>
+    </section>
+  </main>
+
+  <footer>
+    <p>© <span id="year"></span> Oscar Omar Saucedo Beltrán</p>
+  </footer>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
